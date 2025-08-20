@@ -10,8 +10,8 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="424dp"
-        android:layout_height="927dp"
+        android:layout_width="430dp"
+        android:layout_height="932dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

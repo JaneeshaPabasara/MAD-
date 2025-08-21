@@ -2,4 +2,8 @@
     <string name="app_name">MAD Project</string>
     <string name="logo">logo</string>
     <string name="logo2">logo</string>
+    <string name="onboard1image">onboard1Image</string>
+    <string name="explore_flowers_that_match_every_nmood_and_moment">explore flowers that match every\nmood and moment.</string>
+    <string name="blooms_that_speak">Blooms That Speak</string>
+    <string name="next">Next</string>
 </resources>

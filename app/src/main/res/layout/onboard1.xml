@@ -7,19 +7,28 @@
     android:background="#F0E5F6">
 
 
-        <!-- Title -->
+    <TextView
+        android:id="@+id/skip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/skip"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Subtitle -->
 
     <TextView
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="152dp"
+        android:fontFamily="@font/katibeh"
         android:text="@string/blooms_that_speak"
         android:textColor="#000000"
-        android:textSize="32sp"
-        android:textStyle="bold"
+        android:textSize="47sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,13 +37,14 @@
         android:id="@+id/subtitle_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/katibeh"
         android:gravity="center"
         android:text="@string/explore_flowers_that_match_every_nmood_and_moment"
         android:textColor="#606060"
-        android:textSize="16sp"
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_text" />
 

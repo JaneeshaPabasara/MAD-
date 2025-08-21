@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="430dp"
-    android:layout_height="932dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#F0E5F6">
 
 
@@ -14,7 +14,7 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="30dp"
         android:text="@string/skip"
-        android:textColor="#808080"
+        android:textColor="#A0A0A0"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,12 +24,13 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="@font/katibeh"
         android:text="@string/blooms_that_speak"
         android:textColor="#000000"
         android:textSize="47sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,22 +53,21 @@
         android:id="@+id/onboard1Image"
         android:layout_width="445dp"
         android:layout_height="566dp"
-        android:layout_marginTop="365dp"
         android:contentDescription="@string/onboard1image"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:0.8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.504"
+        app:layout_constraintVertical_bias="0.997"
         app:srcCompat="@drawable/onboard1img" />
 
     <LinearLayout
         android:id="@+id/indicator_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="-280dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:orientation="horizontal"
@@ -79,26 +79,27 @@
             android:layout_width="8dp"
             android:layout_height="8dp"
             android:layout_margin="4dp"
-            android:background="@drawable/dot_active" />  <!-- Filled circle drawable -->
+            android:background="@drawable/ellipse_1" />  <!-- Filled circle drawable -->
 
         <View
             android:layout_width="8dp"
             android:layout_height="8dp"
             android:layout_margin="4dp"
-            android:background="@drawable/dot_inactive" />  <!-- Empty circle drawable -->
+            android:background="@drawable/ellipse_2" />  <!-- Empty circle drawable -->
 
         <View
             android:layout_width="8dp"
             android:layout_height="8dp"
             android:layout_margin="4dp"
-            android:background="@drawable/dot_inactive" />  <!-- Empty circle drawable -->
+            android:background="@drawable/ellipse_2" />  <!-- Empty circle drawable -->
     </LinearLayout>
 
-        <!-- Next button -->
+    <!-- Next button -->
     <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
         android:layout_marginBottom="36dp"
         android:backgroundTint="#800080"
         android:paddingHorizontal="32dp"
@@ -109,7 +110,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.886"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboard1Image" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

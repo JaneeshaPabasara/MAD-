@@ -23,6 +23,9 @@
         <activity
             android:name=".Onboard1"
             android:exported="false" />
+        <activity
+            android:name=".Onboard2"
+            android:exported="false" />
 <!--        <meta-data-->
 <!--            android:name="preloaded_fonts"-->
 <!--            android:resource="@array/preloaded_fonts" />-->

@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("MainActivity", "Screen tapped, navigating to Onboard1")
             val intent = Intent(this, Onboard1::class.java)
             startActivity(intent)
+            finish()
 //        window.decorView.setOnClickListener {
 //            val intent = Intent(this, Onboard1::class.java)
 //            startActivity(intent)

@@ -2,6 +2,7 @@ package com.example.madproject
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,10 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        window.decorView.setOnClickListener {
-            val intent = Intent(this,Onboard1::class.java)
+        val rootLayout = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.main)
+        rootLayout.setOnClickListener {
+            Log.d("MainActivity", "Screen tapped, navigating to Onboard1")
+            val intent = Intent(this, Onboard1::class.java)
             startActivity(intent)
-           // finish() //Close MainActivity after navigation
+//        window.decorView.setOnClickListener {
+//            val intent = Intent(this, Onboard1::class.java)
+//            startActivity(intent)
+//           finish() //Close MainActivity after navigation
         }
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

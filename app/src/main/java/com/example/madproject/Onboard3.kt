@@ -21,12 +21,12 @@ class Onboard3 : AppCompatActivity() {
             val intent = Intent(this, Onboard4::class.java)
             startActivity(intent)
         }
-        val btnNavigate2=findViewById<TextView>(R.id.skip_text)
-        btnNavigate2.setOnClickListener {
-            Log.d("Onboard3", "Next button clicked, navigating to Onboard4")
-            val intent = Intent(this, Onboard4::class.java)
-            startActivity(intent)
-        }
+//        val btnNavigate2=findViewById<TextView>(R.id.skip_text)
+//        btnNavigate2.setOnClickListener {
+//            Log.d("Onboard3", "Next button clicked, navigating to Onboard4")
+//            val intent = Intent(this, Onboard4::class.java)
+//            startActivity(intent)
+//        }
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

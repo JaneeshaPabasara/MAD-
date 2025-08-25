@@ -1,25 +1,16 @@
 package com.example.madproject
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class Onboard4 : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+class Homepage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.onboard4)
-        val btnNavigate=findViewById<Button>(R.id.get_started_button)
-        btnNavigate.setOnClickListener {
-            Log.d("Onboard4", "Next button clicked, navigating to homepage")
-            val intent = Intent(this, Homepage::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.homepage)
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

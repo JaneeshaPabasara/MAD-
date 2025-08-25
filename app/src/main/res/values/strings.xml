@@ -12,4 +12,31 @@
     <string name="wrap_it_with_love">Wrap It With Love</string>
     <string name="your_story_in_a_bouquet">Your Story in a Bouquet</string>
     <string name="blend_petals_stems_and_wraps_into_a_masterpiece_and_send_love_in_bloom">Blend petals, stems, and wraps into a masterpiece—and send love in bloom</string>
+<string name="settings">settings</string>
+    <string name="notifications" >notifications</string>
+    <string name="favorites" >favorites</string>
+    <string name="search_anything" >search_anything</string>
+    <string name="flower_bouquet_collections" >Flower bouquet collections</string>
+    <string name="casual_bouquet" >casual_bouquet</string>
+    <string name="casual" >Casual</string>
+    <string name="anniversary_bouquet" >anniversary_bouquet</string>
+    <string name="anniversary" >Anniversary</string>
+    <string name="birthday_bouquet" >birthday_bouquet</string>
+    <string name="birthday" >Birthday</string>
+    <string name="graduation_bouquet" >graduation_bouquet</string>
+    <string name="graduation" >Graduation</string>
+    <string name="separate_choices" >Separate choices</string>
+    <string name="flower_stem" >Flower stem</string>
+    <string name="foliage" >Foliage</string>
+    <string name="flower_buds" >Flower buds</string>
+    <string name="wraps" >Wraps</string>
+    <string name="make_your_own_bouquet" >Make your own bouquet</string>
+    <string name="custom_bouquet" >custom_bouquet</string>
+    <string name="get_started" >Get started</string>
+    <string name="shop" >Shop</string>
+    <string name="search" >Search</string>
+    <string name="cart" >Cart</string>
+    <string name="profile" >Profile</string>
+
+
 </resources>

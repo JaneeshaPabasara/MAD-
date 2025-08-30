@@ -50,7 +50,7 @@ class Step1Page : AppCompatActivity() {
                 else -> false
             }
         }
-        val btnNavigate=findViewById<TextView>(R.id.next_button)
+        val btnNavigate=findViewById<TextView>(R.id.next_buttontton)
         btnNavigate.setOnClickListener {
             Log.d("step1page", "Next button clicked, navigating to step 2 page")
             val intent = Intent(this, Step2Page::class.java)

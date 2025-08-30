@@ -168,7 +168,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:src="@drawable/casual2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:src="@drawable/casual3" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -278,7 +278,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:src="@drawable/casual4" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -332,7 +332,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:src="@drawable/casual5" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -386,7 +386,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:src="@drawable/casual6" />
 
                         <TextView
                             android:layout_width="wrap_content"

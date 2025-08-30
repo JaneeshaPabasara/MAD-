@@ -114,6 +114,29 @@
     <string name="transactions">Transactions</string>
     <string name="transactions_icon">Transactions Icon</string>
     <string name="ssettings">Settings</string>
+    <string name="peony">peony</string>
+    <string name="zinnia">Zinnia</string>
+    <string name="lavender">lavender</string>
+    <string name="hydrangea">Hydrangea</string>
+    <string name="dusty_miller">Dusty Miller</string>
+    <string name="lemon_leaf">Lemon Leaf</string>
+    <string name="_100">100</string>
+    <string name="silver_dollar_eucalyptus">Silver Dollar Eucalyptus</string>
+    <string name="bells_of_ireland">Bells of Ireland</string>
+    <string name="gyp">Gyp</string>
+    <string name="grevillea">Grevillea</string>
+    <string name="aboli_bud">Aboli bud</string>
+    <string name="hibiscus_bud">Hibiscus bud</string>
+    <string name="jasmin_bud">Jasmin bud</string>
+    <string name="purple_iris_bud">Purple Iris bud</string>
+    <string name="yellow_rose_bud">Yellow Rose bud</string>
+    <string name="red_rose_bud">Red Rose bud</string>
+    <string name="pink_wrap">Pink wrap</string>
+    <string name="designed_white_wrap">Designed White wrap</string>
+    <string name="designed_orange_wrap">Designed Orange wrap</string>
+    <string name="brown_wrap">Brown wrap</string>
+    <string name="gold_wrap">Gold wrap</string>
+    <string name="white_wrap">White wrap</string>
 
 
 </resources>

@@ -7,8 +7,6 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class Onboard1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +14,7 @@ class Onboard1 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.onboard1)
 
-        val btnNavigate=findViewById<Button>(R.id.next_button2)
+        val btnNavigate=findViewById<Button>(R.id.Get_button)
         btnNavigate.setOnClickListener {
             Log.d("Onboard1", "Next button clicked, navigating to Onboard2")
             val intent = Intent(this, Onboard2::class.java)

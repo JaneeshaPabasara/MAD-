@@ -21,6 +21,7 @@ class LoginPage : AppCompatActivity() {
             Log.d("login page", "login button clicked, navigating to homepage")
             val intent = Intent(this, Homepage::class.java)
             startActivity(intent)
+            finish()
         }
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

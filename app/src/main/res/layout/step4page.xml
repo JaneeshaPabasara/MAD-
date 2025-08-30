@@ -182,15 +182,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/pink_wrap"
+                            android:src="@drawable/w1" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/pink_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -198,7 +198,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -237,15 +237,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/designed_white_wrap"
+                            android:src="@drawable/w3" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/designed_white_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -253,7 +253,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -292,15 +292,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/designed_orange_wrap"
+                            android:src="@drawable/w2" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/designed_orange_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -308,7 +308,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -347,15 +347,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/brown_wrap"
+                            android:src="@drawable/w4" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/brown_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -363,7 +363,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -401,15 +401,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/gold_wrap"
+                            android:src="@drawable/w5" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/gold_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -417,7 +417,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -455,15 +455,15 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:contentDescription="@string/zinnia_flower_bouquet"
-                            android:src="@drawable/casual_flower_boq" />
+                            android:contentDescription="@string/white_wrap"
+                            android:src="@drawable/w6" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/zinnia_flower_bouquet"
+                            android:text="@string/white_wrap"
                             android:textSize="14sp" />
 
                         <TextView
@@ -471,7 +471,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="2dp"
-                            android:text="@string/rs_3500_00"
+                            android:text="@string/_500"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 

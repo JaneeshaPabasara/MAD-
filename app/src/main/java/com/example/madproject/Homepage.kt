@@ -6,8 +6,6 @@ import android.util.Log
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class Homepage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,15 +78,17 @@ class Homepage : AppCompatActivity() {
         val rootLayout4 = findViewById<androidx.cardview.widget.CardView>(R.id.grad_card)
         rootLayout4.setOnClickListener {
             Log.d("Homepage", "birthday card tapped, navigating to birthday page")
-            val intent = Intent(this, BirthdayPage::class.java)
+            val intent = Intent(this, GradPage::class.java)
             startActivity(intent)
             finish()
         }
-        val btnNavigate=findViewById<TextView>(R.id.next_button2)
+        val btnNavigate=findViewById<TextView>(R.id.Get_button)
         btnNavigate.setOnClickListener {
             Log.d("Homepage", "Next button clicked, navigating to step 1 page")
             val intent = Intent(this, Step1Page::class.java)
             startActivity(intent)
+            finish()
+
         }
 
     }

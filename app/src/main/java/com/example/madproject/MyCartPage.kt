@@ -51,7 +51,7 @@ class MyCartPage : AppCompatActivity() {
         val btnNavigate=findViewById<TextView>(R.id.next_button)
         btnNavigate.setOnClickListener {
             Log.d("step1page", "Next button clicked, navigating to step 2 page")
-            val intent = Intent(this, Step2Page::class.java)
+            val intent = Intent(this, Homepage::class.java)
             startActivity(intent)
         }
     }

@@ -68,7 +68,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/next_button2"
+        app:layout_constraintBottom_toTopOf="@id/Get_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -93,7 +93,7 @@
 
     <!-- Next button -->
     <Button
-        android:id="@+id/next_button2"
+        android:id="@+id/Get_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-200dp"

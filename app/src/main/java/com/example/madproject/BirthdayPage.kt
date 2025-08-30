@@ -7,18 +7,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class CasualPage : AppCompatActivity() {
+class BirthdayPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.casualpage)
+        setContentView(R.layout.birthdaypage)
 
-        val bottomNavigation = findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(R.id.bottom_navigation)
+        val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
-                    Log.d("CasualPage", "Home icon tapped, navigating to Home page")
+                    Log.d("Birthday page", "Home icon tapped, navigating to Home page")
                     val intent = Intent(this, Homepage::class.java)
                     startActivity(intent)
                     finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
@@ -40,8 +41,8 @@ class CasualPage : AppCompatActivity() {
                 else -> false
             }
         }
-                }
-            }
+    }
+}
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

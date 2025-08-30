@@ -38,6 +38,27 @@
         <activity
             android:name=".CasualPage"
             android:exported="false" />
+        <activity
+            android:name=".AnniversaryPage"
+            android:exported="false" />
+        <activity
+            android:name=".BirthdayPage"
+            android:exported="false" />
+        <activity
+            android:name=".GradPage"
+            android:exported="false" />
+        <activity
+            android:name=".Step1Page"
+            android:exported="false" />
+        <activity
+            android:name=".Step2Page"
+            android:exported="false" />
+        <activity
+            android:name=".Step3Page"
+            android:exported="false" />
+        <activity
+            android:name=".Step4Page"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

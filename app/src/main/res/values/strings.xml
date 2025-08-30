@@ -48,6 +48,41 @@
     <string name="_dot">...</string>
     <string name="_5">5</string>
     <string name="nextnav">Next →</string>
+    <string name="anniversary_collection">Anniversary Collection</string>
+    <string name="Birthday_collection">Birthday Collection</string>
+    <string name="graduation_collection">Graduation Collection</string>
+    <string name="step_1">Step 1</string>
+    <string name="step_2">Step 2</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_4">Step 4</string>
+    <string name="choose_your_favorite_flowers">Choose your favorite flowers</string>
+    <string name="pre">←</string>
+    <string name="nex">→</string>
+    <string name="your_bundle">Your Bundle</string>
+    <string name="review">Review</string>
+    <string name="pink_tulip">Pink Tulip</string>
+    <string name="_200">200/-</string>
+    <string name="x2">x2</string>
+    <string name="red_rose">red Rose</string>
+    <string name="_400">400/-</string>
+    <string name="_2400">2400/-</string>
+    <string name="total">total</string>
+    <string name="choose_your_favorite_foliage">Choose your favorite Foliage</string>
+    <string name="ferns">Ferns</string>
+    <string name="_2800">2800</string>
+    <string name="Next">Next</string>
+    <string name="nextb">Next</string>
+    <string name="previousb">Previous</string>
+    <string name="choose_your_favorite_flower_buds">Choose your favorite Flower buds</string>
+    <string name="rosebuds">roseBuds</string>
+    <string name="_300">300/-</string>
+    <string name="x4">x4</string>
+    <string name="_4000">4000/-</string>
+    <string name="choose_your_favorite_wrapper">Choose your favorite Wrapper</string>
+    <string name="wrapper">Wrapper</string>
+    <string name="_500">500/-</string>
+    <string name="x1">x1</string>
+    <string name="_4500">4500/-</string>
 
 
 </resources>

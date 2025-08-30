@@ -8,23 +8,28 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Homepage : AppCompatActivity() {
+class CasualPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.homepage)
+        setContentView(R.layout.casualpage)
 
-        val rootLayout = findViewById<androidx.cardview.widget.CardView>(R.id.casual_card)
-        rootLayout.setOnClickListener {
-            Log.d("Homepage", "casual card tapped, navigating to casual page")
-            val intent = Intent(this, CasualPage::class.java)
-            startActivity(intent)
-            finish()
+        val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        bottomNavigation.setOnClickListener { item ->
+            when (item.itemId) {
+                R.id.navigation_home -> {
+                    Log.d("CasualPage", "Home icon tapped, navigating to Home page")
+                    val intent = Intent(this, Homepage::class.java)
+                    startActivity(intent)
+                    finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
+                    true
+                }
+            }}
+
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
+            }
         }
-    }
-}
 //}

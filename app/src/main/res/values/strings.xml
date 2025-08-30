@@ -37,6 +37,17 @@
     <string name="search" >Search</string>
     <string name="cart" >Cart</string>
     <string name="profile" >Profile</string>
+    <string name="casual_collection">Casual Collection</string>
+    <string name="zinnia_flower_bouquet">Zinnia flower bouquet</string>
+    <string name="rs_3500_00">Rs.3500.00</string>
+    <string name="_1">+ 1 -</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="previous">← Previous</string>
+    <string name="_1n">1</string>
+    <string name="_2">2</string>
+    <string name="_dot">...</string>
+    <string name="_5">5</string>
+    <string name="nextnav">Next →</string>
 
 
 </resources>

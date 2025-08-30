@@ -35,6 +35,9 @@
         <activity
             android:name=".Homepage"
             android:exported="false" />
+        <activity
+            android:name=".CasualPage"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

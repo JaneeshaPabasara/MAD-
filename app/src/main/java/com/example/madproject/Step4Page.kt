@@ -25,17 +25,25 @@ class Step4Page : AppCompatActivity() {
                     finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
                     true
                 }
-                // Handle other navigation items if needed
                 R.id.nav_search -> {
-                    // Add navigation to Search page if implemented
+                    Log.d("step4 page", "search icon tapped, navigating to search page")
+                    val intent = Intent(this, Homepage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_cart -> {
-                    // Add navigation to Cart page if implemented
+                    Log.d("step4 page", "cart icon tapped, navigating to cart page")
+                    val intent = Intent(this, MyCartPage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_profile -> {
-                    // Add navigation to Profile page if implemented
+                    Log.d("step4 page", "profile icon tapped, navigating to profile page")
+                    val intent = Intent(this, ProfilePage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 else -> false
@@ -50,7 +58,7 @@ class Step4Page : AppCompatActivity() {
         val btnNavigate1=findViewById<TextView>(R.id.next2_button)
         btnNavigate1.setOnClickListener {
             Log.d("step4page", "next button clicked, navigating cart")
-            val intent = Intent(this, Step2Page::class.java)
+            val intent = Intent(this, MyCartPage::class.java)
             startActivity(intent)
         }
     }

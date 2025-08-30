@@ -83,6 +83,37 @@
     <string name="_500">500/-</string>
     <string name="x1">x1</string>
     <string name="_4500">4500/-</string>
+    <string name="view_cart">View cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="my_cart">My Cart</string>
+    <string name="i_agree_to_terms_privacy_policy"><![CDATA[I agree to Terms & Privacy Policy.]]></string>
+    <string name="re_enter_your_password">Re-Enter Your Password</string>
+    <string name="confirm_password">Confirm Password :</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="password">Password :</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="email">Email :</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="user_name">User Name :</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="welcome">Welcome!</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="florio_logo">Florio Logo</string>
+    <string name="profile_p">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="jerad_gmail_com">Jerad@gmail.com</string>
+    <string name="jerad_peterson">Jerad Peterson</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="settings_ico">Settings</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="help_center">Help center</string>
+    <string name="help_icon">Help Icon</string>
+    <string name="saved">Saved</string>
+    <string name="saved_icon">Saved Icon</string>
+    <string name="transactions">Transactions</string>
+    <string name="transactions_icon">Transactions Icon</string>
+    <string name="ssettings">Settings</string>
 
 
 </resources>

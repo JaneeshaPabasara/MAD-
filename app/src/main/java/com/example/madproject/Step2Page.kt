@@ -25,17 +25,25 @@ class Step2Page : AppCompatActivity() {
                     finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
                     true
                 }
-                // Handle other navigation items if needed
                 R.id.nav_search -> {
-                    // Add navigation to Search page if implemented
+                    Log.d("step 2 page", "search icon tapped, navigating to search page")
+                    val intent = Intent(this, Homepage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_cart -> {
-                    // Add navigation to Cart page if implemented
+                    Log.d("step2 page", "cart icon tapped, navigating to cart page")
+                    val intent = Intent(this, MyCartPage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_profile -> {
-                    // Add navigation to Profile page if implemented
+                    Log.d("step2 page", "profile icon tapped, navigating to profile page")
+                    val intent = Intent(this, ProfilePage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 else -> false

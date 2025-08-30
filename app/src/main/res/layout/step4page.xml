@@ -858,7 +858,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#800080"
                     android:padding="8dp"
-                    android:text="@string/nextb"
+                    android:text="@string/view_cart"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>

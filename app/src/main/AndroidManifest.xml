@@ -59,6 +59,15 @@
         <activity
             android:name=".Step4Page"
             android:exported="false" />
+        <activity
+            android:name=".MyCartPage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilePage"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

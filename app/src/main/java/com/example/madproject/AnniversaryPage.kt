@@ -26,15 +26,24 @@ class AnniversaryPage : AppCompatActivity() {
                 }
                 // Handle other navigation items if needed
                 R.id.nav_search -> {
-                    // Add navigation to Search page if implemented
+                    Log.d("Anniversary page", "search icon tapped, navigating to Home page")
+                    val intent = Intent(this, Homepage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_cart -> {
-                    // Add navigation to Cart page if implemented
+                    Log.d("Anniversary page", "cart icon tapped, navigating to Home page")
+                    val intent = Intent(this, MyCartPage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.nav_profile -> {
-                    // Add navigation to Profile page if implemented
+                    Log.d("Anniversary page", "profile icon tapped, navigating to profile page")
+                    val intent = Intent(this, ProfilePage::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 else -> false

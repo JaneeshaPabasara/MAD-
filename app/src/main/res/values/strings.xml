@@ -137,6 +137,22 @@
     <string name="brown_wrap">Brown wrap</string>
     <string name="gold_wrap">Gold wrap</string>
     <string name="white_wrap">White wrap</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_methodd">Payment Method</string>
+    <string name="visa_card">Visa Card</string>
+    <string name="choose_method">Choose method</string>
+    <string name="cash">cash</string>
+    <string name="visa">Visa</string>
+    <string name="paypal">PayPal</string>
+    <string name="cardholder_name">Cardholder name</string>
+    <string name="enter_cardholder_name">Enter cardholder name</string>
+    <string name="cvv">cvv</string>
+    <string name="enter_cvv">Enter cvv</string>
+    <string name="card_number">Card number</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="expire_date">Expire date</string>
+    <string name="enter_expire_date">Enter expire date</string>
+    <string name="save_payment">Save Payment</string>
 
 
 </resources>

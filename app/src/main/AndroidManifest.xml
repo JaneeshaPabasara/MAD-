@@ -68,6 +68,9 @@
         <activity
             android:name=".ProfilePage"
             android:exported="false" />
+        <activity
+        android:name=".PaymentMethod"
+        android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

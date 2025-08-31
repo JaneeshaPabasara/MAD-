@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8EAF6">
+    android:background="@color/primary_color">
 
     <!-- Scrollable content -->
     <ScrollView
@@ -663,7 +663,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:background="#DDA0DD"
+                        android:background="@color/secondary_color"
                         android:orientation="horizontal"
                         android:padding="8dp">
 
@@ -692,7 +692,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:backgroundTint="#800080"
+                android:backgroundTint="@color/accent_color"
                 android:padding="8dp"
                 android:text="@string/Next"
                 android:textColor="#FFFFFF"

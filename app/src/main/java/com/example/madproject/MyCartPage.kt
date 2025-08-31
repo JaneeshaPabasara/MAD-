@@ -50,8 +50,8 @@ class MyCartPage : AppCompatActivity() {
         }
         val btnNavigate=findViewById<TextView>(R.id.next_button)
         btnNavigate.setOnClickListener {
-            Log.d("step1page", "Next button clicked, navigating to step 2 page")
-            val intent = Intent(this, Homepage::class.java)
+            Log.d("my cart", "checkout button clicked, navigating to payment method page")
+            val intent = Intent(this, PaymentMethod::class.java)
             startActivity(intent)
         }
     }

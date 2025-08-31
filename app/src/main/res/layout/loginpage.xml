@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginBottom="16dp"
-                android:backgroundTint="#800080"
+                android:backgroundTint="@color/accent_color"
                 android:text="@string/create_account"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />

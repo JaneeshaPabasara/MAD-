@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8EAF6">
+    android:background="@color/primary_color">
 
     <!-- Scrollable content -->
     <ScrollView
@@ -251,7 +251,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginStart="315dp"
-                android:backgroundTint="#800080"
+                android:backgroundTint="@color/accent_color"
                 android:padding="8dp"
                 android:text="@string/save_payment"
                 android:textColor="#FFFFFF"
@@ -268,7 +268,7 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F8EAF6"
+        android:background="@color/primary_color"
         app:itemIconTint="@android:color/black"
         app:itemTextColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"

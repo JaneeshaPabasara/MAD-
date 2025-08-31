@@ -90,6 +90,14 @@ class Homepage : AppCompatActivity() {
             finish()
 
         }
+        val btnNavigate2=findViewById<TextView>(R.id.Flower_stem)
+        btnNavigate2.setOnClickListener {
+            Log.d("Homepage", "Flower_stem button clicked, navigating to flower stem page")
+            val intent = Intent(this, FlowerStem::class.java)
+            startActivity(intent)
+            finish()
+
+        }
 
     }
 }

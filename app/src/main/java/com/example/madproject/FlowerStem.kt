@@ -7,68 +7,52 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class ProfilePage : AppCompatActivity() {
+class FlowerStem : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.profilepage)
+        setContentView(R.layout.flowerstem)
 
-        val bottomNavigation =
-            findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(R.id.bottom_navigation)
+        val bottomNavigation = findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
-                    Log.d("profile page", "Home icon tapped, navigating to home page")
+                    Log.d("flower stem", "Home icon tapped, navigating to home page")
                     val intent = Intent(this, Homepage::class.java)
                     startActivity(intent)
                     finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
                     true
                 }
-
                 R.id.nav_search -> {
-                    Log.d("profile page", "search icon tapped, navigating to search page")
+                    Log.d("flower stem", "search icon tapped, navigating to search page")
                     val intent = Intent(this, Homepage::class.java)
                     startActivity(intent)
                     finish()
                     true
                 }
-
                 R.id.nav_cart -> {
-                    Log.d("profile page", "cart icon tapped, navigating to cart page")
+                    Log.d("flower stem", "cart icon tapped, navigating to cart page")
                     val intent = Intent(this, MyCartPage::class.java)
                     startActivity(intent)
                     finish()
                     true
                 }
-
                 R.id.nav_profile -> {
-                    Log.d("profile page", "profile icon tapped, navigating to profile page")
+                    Log.d("flower stem", "profile icon tapped, navigating to profile page")
                     val intent = Intent(this, ProfilePage::class.java)
                     startActivity(intent)
                     finish()
                     true
                 }
-
                 else -> false
             }
         }
-        val rootLayout = findViewById<TextView>(R.id.pay)
-        rootLayout.setOnClickListener {
-            Log.d("MainActivity", "Screen tapped, navigating to Onboard1")
-            val intent = Intent(this, PaymentMethod::class.java)
-            startActivity(intent)
-            finish()
 
-        }
-        val btnNavigate=findViewById<Button>(R.id.pre_button1)
-        btnNavigate.setOnClickListener {
-            Log.d("profile page", "logout clicked, navigating to login")
-            val intent = Intent(this, Login1::class.java)
-            startActivity(intent)
-            finish()
-        }
-    }}
+    }
+}
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

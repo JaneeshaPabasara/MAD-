@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0E5F6">
+    android:background="@color/primary_color">
 
 
     <ImageView
@@ -25,10 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
-        android:backgroundTint="#800080"
+        android:backgroundTint="@color/accent_color"
         android:paddingHorizontal="32dp"
         android:paddingVertical="12dp"
-        android:text="Get Started"
+        android:text="@string/get_startedd"
         android:textColor="#FFFFFF"
         app:cornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"

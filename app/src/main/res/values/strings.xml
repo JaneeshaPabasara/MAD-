@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD Project</string>
+    <string name="app_name">Floria</string>
     <string name="logo">logo</string>
     <string name="logo2">logo</string>
     <string name="onboard1image">onboard1Image</string>
@@ -172,6 +172,9 @@
     <string name="digit_3">digit 3</string>
     <string name="e_g_8">e.g 8</string>
     <string name="_8">8</string>
+    <string name="flower_stems">Flower Stems</string>
+    <string name="log_out">Log out</string>
+    <string name="get_startedd">Get Started</string>
 
 
 </resources>

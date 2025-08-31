@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8EAF6">
+    android:background="@color/primary_color">
 
     <!-- Scrollable content -->
     <ScrollView
@@ -280,12 +280,13 @@
 
                 <!-- Flower stem -->
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#E6C3D9"
-                    android:padding="12dp"
                     android:layout_marginBottom="8dp"
-                    android:gravity="center_vertical">
+                    android:background="@color/secondary_color"
+                    android:gravity="center_vertical"
+                    android:padding="12dp">
 
                     <ImageView
                         android:layout_width="40dp"
@@ -295,6 +296,7 @@
                         android:src="@drawable/flower_stem" />
 
                     <TextView
+                        android:id="@+id/Flower_stem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="190dp"
@@ -426,7 +428,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:layout_marginBottom="20dp"
-                        android:backgroundTint="#800080"
+                        android:backgroundTint="@color/accent_color"
                         android:paddingHorizontal="16dp"
                         android:paddingVertical="8dp"
                         android:text="@string/get_started"

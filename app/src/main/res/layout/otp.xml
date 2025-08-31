@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C6C7E">
+
+    <!-- Card View for the Form -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="138dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="-10dp"
+                android:contentDescription="@string/florio_logo"
+                android:src="@drawable/floria_logo" />
+
+            <!-- Welcome Text -->
+            <TextView
+                android:id="@+id/verifyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/katibeh"
+                android:text="@string/verify_your_email"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <!-- OTP Input Fields -->
+            <LinearLayout
+                android:id="@+id/otpLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/verifyText">
+
+                <EditText
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/otp_border"
+                    android:hint="@string/_8"
+                    android:gravity="center"
+                    android:inputType="number"
+
+                    android:maxLength="1"
+
+                    />
+
+                <EditText
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/otp_border"
+                    android:hint="@string/_8"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+                <EditText
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/otp_border"
+
+
+                    android:gravity="center"
+                    android:hint="@string/_8"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+                <EditText
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/otp_border"
+                    android:hint="@string/_8"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="@string/didn_t_get_the_otp_resend_it"
+                android:textColor="#757575"
+                android:textSize="12sp" />
+
+            <!-- Create Account Button -->
+            <Button
+                android:id="@+id/pre_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#800080"
+                android:text="@string/Continue"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Login Link -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

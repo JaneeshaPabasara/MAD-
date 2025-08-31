@@ -153,6 +153,25 @@
     <string name="expire_date">Expire date</string>
     <string name="enter_expire_date">Enter expire date</string>
     <string name="save_payment">Save Payment</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="foget_password">Foget Password</string>
+    <string name="foget_passwordd">Foget Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="please_enter_the_email_address_associate_with_yor_account">Please enter the email address associate with yor account</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="forget_passwordd">Forget password</string>
+    <string name="verify_your_email">Verify your email</string>
+    <string name="didn_t_get_the_otp_resend_it">Didn\'t get the OTP? Resend it</string>
+    <string name="Continue">Continue</string>
+    <string name="enter_first_otp_digit">Enter first OTP digit</string>
+    <string name="first_otp_digit">First OTP digit</string>
+    <string name="second_otp_digit">Second OTP digit</string>
+    <string name="third_otp_digit">Third OTP digit</string>
+    <string name="fourth_otp_digit">Fourth OTP digit</string>
+    <string name="digit_3">digit 3</string>
+    <string name="e_g_8">e.g 8</string>
+    <string name="_8">8</string>
 
 
 </resources>

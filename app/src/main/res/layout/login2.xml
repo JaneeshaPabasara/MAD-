@@ -40,19 +40,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/katibeh"
-                android:text="@string/welcome"
+                android:text="@string/login_to_your_account"
                 android:textSize="36sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-25dp"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="@font/katibeh"
-                android:text="@string/create_an_account"
-                android:textSize="16sp" />
+
 
             <!-- User Name Input -->
             <TextView
@@ -112,32 +104,7 @@
                 android:inputType="textPassword"
                 android:minHeight="48dp"/>
 
-            <!-- Confirm Password Input -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="14dp"
-                android:layout_marginTop="13dp"
-                android:layout_marginBottom="-15dp"
-                android:text="@string/confirm_password"
-                android:textSize="14sp" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_marginBottom="16dp"
-                android:hint="@string/re_enter_your_password"
-                android:inputType="textPassword"
-                android:minHeight="48dp"/>
-
-            <!-- Terms Checkbox -->
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="@string/i_agree_to_terms_privacy_policy"
-                android:textSize="12sp" />
 
             <!-- Create Account Button -->
             <Button
@@ -147,17 +114,17 @@
                 android:layout_margin="8dp"
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="#800080"
-                android:text="@string/create_account"
+                android:text="@string/sign_in"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <!-- Login Link -->
             <TextView
-                android:id="@+id/signIn"
+                android:id="@+id/forget_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/already_have_an_account_login"
+                android:text="@string/forget_passwordd"
                 android:textColor="#757575"
                 android:textSize="12sp" />
         </LinearLayout>

@@ -10,26 +10,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class LoginPage : AppCompatActivity() {
+class ForgetPass : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.loginpage)
+        setContentView(R.layout.fogetpass)
 
         val btnNavigate=findViewById<Button>(R.id.pre_button1)
         btnNavigate.setOnClickListener {
-            Log.d("login page", "login button clicked, navigating to homepage")
-            val intent = Intent(this, Homepage::class.java)
+            Log.d("foget page", "send otp clicked, navigating to homepage")
+            val intent = Intent(this, Otp::class.java)
             startActivity(intent)
             finish()
-        }
-        val rootLayout = findViewById<TextView>(R.id.signIn)
-        rootLayout.setOnClickListener {
-            Log.d("MainActivity", "Screen tapped, navigating to Onboard1")
-            val intent = Intent(this, Login1::class.java)
-            startActivity(intent)
-            finish()
-
         }
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

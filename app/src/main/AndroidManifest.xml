@@ -71,6 +71,16 @@
         <activity
         android:name=".PaymentMethod"
         android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPass"
+            android:exported="false" />
+        <activity
+            android:name=".Otp"
+            android:exported="false" />
+
 
         <meta-data
             android:name="preloaded_fonts"

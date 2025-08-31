@@ -55,7 +55,7 @@ class ProfilePage : AppCompatActivity() {
         val rootLayout = findViewById<TextView>(R.id.pay)
         rootLayout.setOnClickListener {
             Log.d("MainActivity", "Screen tapped, navigating to Onboard1")
-            val intent = Intent(this, Onboard1::class.java)
+            val intent = Intent(this, PaymentMethod::class.java)
             startActivity(intent)
             finish()
 

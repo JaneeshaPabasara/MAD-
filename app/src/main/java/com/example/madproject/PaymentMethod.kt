@@ -17,6 +17,7 @@ class PaymentMethod : AppCompatActivity() {
         setContentView(R.layout.paymentmethod)
 
         val bottomNavigation = findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(R.id.bottom_navigation)
+        bottomNavigation.selectedItemId = R.id.nav_cart
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {

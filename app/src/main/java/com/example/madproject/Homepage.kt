@@ -14,16 +14,17 @@ class Homepage : AppCompatActivity() {
         setContentView(R.layout.homepage)
 
         val bottomNavigation = findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(R.id.bottom_navigation)
+        bottomNavigation.selectedItemId = R.id.nav_home
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
                     Log.d("home page", "Home icon tapped, navigating to Home page")
                     val intent = Intent(this, Homepage::class.java)
                     startActivity(intent)
-                    finish() // Optional: Close CasualPage if you don't want to keep it in the back stack
+                    finish()
                     true
                 }
-                // Handle other navigation items if needed
+
                 R.id.nav_search -> {
                     Log.d("home page", "search icon tapped, navigating to Home page")
                     val intent = Intent(this, Homepage::class.java)

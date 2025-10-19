@@ -723,39 +723,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-<!--            &lt;!&ndash; Next Button &ndash;&gt;-->
-<!--            <Button-->
-<!--                android:id="@+id/next2_button"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_margin="8dp"-->
-<!--                android:layout_marginTop="4dp"-->
-<!--                android:backgroundTint="#800080"-->
-<!--                android:padding="8dp"-->
-<!--                android:text="@string/nextb"-->
-<!--                android:textColor="#FFFFFF"-->
-<!--                android:textSize="14sp"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHorizontal_bias="0.9"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/Bundle_card" />-->
-
-<!--            &lt;!&ndash; Pre Button &ndash;&gt;-->
-<!--            <Button-->
-<!--                android:id="@+id/pre_button1"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_margin="8dp"-->
-<!--                android:layout_marginTop="4dp"-->
-<!--                android:backgroundTint="#800080"-->
-<!--                android:padding="8dp"-->
-<!--                android:text="@string/previousb"-->
-<!--                android:textColor="#FFFFFF"-->
-<!--                android:textSize="14sp"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHorizontal_bias="0.1"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/Bundle_card" />-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
